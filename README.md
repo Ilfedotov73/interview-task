@@ -6,3 +6,8 @@
 * sudo apt-get install libboost-all-dev -- для pool_alloc.hpp
 * g++ -O2 app.cpp linked_list.cpp -o app
 * ./app < ./tests/inlet.in > ./tests/outlet.out
+
+## Замеры
+Входной файл подавался в размер 100 записей.
+Deserialize: 1.27314 ms
+Serialize: 0.056436 ms
